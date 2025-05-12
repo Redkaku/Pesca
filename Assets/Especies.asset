@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbf1451054a3be46b3a943cc296ef50, type: 3}
+  m_Name: Especies
+  m_EditorClassIdentifier: 
+  criterio: 1
+  colores:
+  - {r: 0, g: 0, b: 0, a: 0.80784315}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0.17752671, b: 1, a: 0.57254905}
+  - {r: 0.09829111, g: 0.94716984, b: 0.09918607, a: 0.72156864}
+  especiesPrefab:
+  - {fileID: 5033168645369434045, guid: 636b507c2f402134aa3a72dd4c6167d5, type: 3}
+  letras: 41004200430044004500
+  numeros: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  figuras: []
