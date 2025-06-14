@@ -5,12 +5,15 @@ public enum Species
 {
     PezGlobo,
     Pulpo,
+    Tiburon,
     Mantarraya
 }
 
 public enum FishColor
 {
     Rojo,
+    Morado,
+    Blanco,
     Verde,
     Azul
 }

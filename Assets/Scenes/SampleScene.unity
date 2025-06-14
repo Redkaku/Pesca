@@ -180,13 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3313040e0c115dd498aefabc38ab9113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentCriterion: 0
   fishPrefabs:
   - {fileID: 5033168645369434045, guid: 636b507c2f402134aa3a72dd4c6167d5, type: 3}
+  - {fileID: 5033168645369434045, guid: 84980949668c4c74d9899031fa73a391, type: 3}
+  - {fileID: 5033168645369434045, guid: a1318039684eff448a08584d1e40ff94, type: 3}
   - {fileID: 5033168645369434045, guid: a20a60a6ed7b1834f998a8b4b96160d6, type: 3}
+  - {fileID: 5033168645369434045, guid: 16a03c6a8d9d54f4987e3f596cd9f365, type: 3}
+  - {fileID: 5033168645369434045, guid: 636b507c2f402134aa3a72dd4c6167d5, type: 3}
   shapeSprites: []
-  letters: 
-  numbers: 
-  colorNames: []
   spawnInterval: 1.5
   speed: 2
   amplitude: 1
