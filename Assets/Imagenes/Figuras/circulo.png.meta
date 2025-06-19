@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 57ae3a6693b7bd540833370a66fefdb9
+guid: f1a5a5bd5e1cad7499bfb2fa926e95e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7710228924276537032
-    second: Tiburon2_0
+      213: -206701651332219563
+    second: circulo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiburon2_0
+      name: circulo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33
-        width: 500
-        height: 437
+        x: 69
+        y: 73
+        width: 1852
+        height: 1855
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8390e87d4a3cff490800000000000000
-      internalID: -7710228924276537032
+      spriteID: 55d3bd971f5a12df0800000000000000
+      internalID: -206701651332219563
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tiburon2_0: -7710228924276537032
+      circulo_0: -206701651332219563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

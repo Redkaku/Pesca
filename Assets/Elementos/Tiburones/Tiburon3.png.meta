@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tiburon3_0: 5946455985208260447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

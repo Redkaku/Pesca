@@ -29,37 +29,38 @@ public class Fish : MonoBehaviour
     [Header("Identificación (dropdown)")]
     public Species   species;     // dropdown: PezGlobo, Pulpo, Mantarraya
     public FishColor colorName;   // dropdown: Rojo, Verde, Azul
-    public char      letter;      // p.ej. 'A'
-    public int       number;      // p.ej. 5
+    public char letter;      // '\0' si no aplica
+public int? number;      // null si no aplica; 0..9 si aplica
+
 
     [Header("Referencias visuales")]
     public SpriteRenderer    bodyRenderer;
     public SpriteRenderer    shapeRenderer;   // figura interna
-    public TextMeshProUGUI   letterText;      // letra impresa
-    public TextMeshProUGUI   numberText;      // número impreso
+    public TextMeshPro letterText;
+public TextMeshPro numberText;
+    
 
     void Start()
-    {
-        // Ajusta letra
-        if (letterText != null)
-        {
-            bool hasLetter = letter != '\0';
-            letterText.text = hasLetter ? letter.ToString() : "";
-            letterText.gameObject.SetActive(hasLetter);
+{
+    // Asumimos letterText y numberText refieren al mismo TextMeshPro o usas uno genérico.
+    if (letterText != null) {
+        if (letter != '\0') {
+            letterText.text = letter.ToString();
         }
-
-        // Ajusta número
-        if (numberText != null)
-        {
-            bool hasNumber = number != 0;
-            numberText.text = hasNumber ? number.ToString() : "";
-            numberText.gameObject.SetActive(hasNumber);
+        else if (number.HasValue) {
+            letterText.text = number.Value.ToString();
         }
-
-        // Ajusta figura interna
-        if (shapeRenderer != null)
-            shapeRenderer.gameObject.SetActive(shapeRenderer.sprite != null);
+        else {
+            letterText.text = "";
+        }
+        // Mantén el objeto activo; si quieres ocultar visualmente cuando vacío, 
+        // puedes ajustar alpha o dejar texto vacío.
     }
+    if (shapeRenderer != null)
+        shapeRenderer.gameObject.SetActive(shapeRenderer.sprite != null);
+}
+
+
 
     void Update()
     {

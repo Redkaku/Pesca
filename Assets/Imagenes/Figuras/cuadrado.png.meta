@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 57ae3a6693b7bd540833370a66fefdb9
+guid: c2e05aaaa32079840b2a2631b4f1e678
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7710228924276537032
-    second: Tiburon2_0
+      213: 3981487691237994998
+    second: cuadrado_0
+  - first:
+      213: 6094687433780123980
+    second: cuadrado_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiburon2_0
+      name: cuadrado_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 33
-        width: 500
-        height: 437
+        y: 2
+        width: 969
+        height: 949
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8390e87d4a3cff490800000000000000
-      internalID: -7710228924276537032
+      spriteID: 6f1b4d9d5f5114730800000000000000
+      internalID: 3981487691237994998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuadrado_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 823
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4950831eeda49450800000000000000
+      internalID: 6094687433780123980
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Tiburon2_0: -7710228924276537032
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

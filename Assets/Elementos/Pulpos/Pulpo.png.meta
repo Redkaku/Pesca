@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pulpo_0: 5939775535788942162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

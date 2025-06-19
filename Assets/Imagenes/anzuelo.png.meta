@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 57ae3a6693b7bd540833370a66fefdb9
+guid: 5725fba7524adde4b86b34fdea482d22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7710228924276537032
-    second: Tiburon2_0
+      213: 8519100252523458274
+    second: anzuelo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiburon2_0
+      name: anzuelo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33
-        width: 500
-        height: 437
+        x: 678
+        y: 331
+        width: 805
+        height: 1497
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8390e87d4a3cff490800000000000000
-      internalID: -7710228924276537032
+      spriteID: 2eee9952b8ce93670800000000000000
+      internalID: 8519100252523458274
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Tiburon2_0: -7710228924276537032
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
