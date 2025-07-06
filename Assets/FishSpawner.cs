@@ -60,54 +60,71 @@ public class FishSpawner : MonoBehaviour
     private float surfaceY;
 
     void Start()
+{
+    // 0) Leer configuración elegida desde el menú
+    captureMode      = GameSettings.CaptureMode;
+    currentCriterion = GameSettings.Criterion;
+
+    // 0.1) Ajustar velocidad según LevelIndex
+    switch (GameSettings.LevelIndex)
     {
-        // Construir listas únicas de especies y colores desde prefabs
-        var speciesSet = new HashSet<Species>();
-        var colorSet = new HashSet<FishColor>();
-        foreach (var prefab in fishPrefabs)
-        {
-            var f = prefab.GetComponent<Fish>();
-            if (f != null)
-            {
-                speciesSet.Add(f.species);
-                colorSet.Add(f.colorName);
-            }
-        }
-        availableSpecies = new List<Species>(speciesSet);
-        availableColors = new List<FishColor>(colorSet);
+        case 0: speed = 1f;    break;
+        case 1: speed = 1.75f; break;
+        case 2: speed = 3f;    break;
+        // Agrega más niveles si los tienes...
+        default: /* speed queda con el valor por defecto inspector */ break;
+    }
 
-        // Configurar waterBounds si Touch Mode y waterBackground asignado
-        // Dentro de FishSpawner.Start():
-        if (waterBackground != null)
+    // 1) Construir listas únicas de especies y colores desde prefabs
+    var speciesSet = new HashSet<Species>();
+    var colorSet   = new HashSet<FishColor>();
+    foreach (var prefab in fishPrefabs)
+    {
+        var f = prefab.GetComponent<Fish>();
+        if (f != null)
         {
-            var sr = waterBackground.GetComponent<SpriteRenderer>();
-            if (sr != null) waterBounds = sr.bounds;
-            else
-            {
-                var col = waterBackground.GetComponent<Collider2D>();
-                if (col != null) waterBounds = col.bounds;
-                else Debug.LogWarning("WaterBackground necesita SpriteRenderer o Collider2D");
-            }
+            speciesSet.Add(f.species);
+            colorSet.Add(f.colorName);
         }
-if (waterBackground != null) {
-    Debug.Log($"[FishSpawner] waterBounds minY={waterBounds.min.y}, maxY={waterBounds.max.y}");
-}
+    }
+    availableSpecies = new List<Species>(speciesSet);
+    availableColors  = new List<FishColor>(colorSet);
 
+    // 1.1) Si el criterio NO es Color y el jugador NO quiere todos los colores,
+    //      forzamos a que sólo exista el color blanco en la paleta:
+    if (currentCriterion != Criterion.Color && !GameSettings.UseAllColors)
+    {
+        availableColors = new List<FishColor> { FishColor.Blanco };
+    }
 
-        // Configurar surfaceY si Hook Mode
-        if (surfaceMarker != null)
-        {
-            surfaceY = surfaceMarker.position.y;
-        }
+    // 2) Configurar waterBounds si Touch Mode y waterBackground asignado
+    if (captureMode == CaptureMode.Click && waterBackground != null)
+    {
+        var sr = waterBackground.GetComponent<SpriteRenderer>();
+        if (sr != null) waterBounds = sr.bounds;
         else
         {
-            // Si no tienes surfaceMarker, puedes tomar la Y de la cámara:
-            surfaceY = Camera.main.transform.position.y;
+            var col = waterBackground.GetComponent<Collider2D>();
+            if (col != null) waterBounds = col.bounds;
+            else Debug.LogWarning("WaterBackground necesita SpriteRenderer o Collider2D");
         }
-
-        PickNewTarget();
-        StartCoroutine(SpawnLoop());
+        Debug.Log($"[FishSpawner] waterBounds minY={waterBounds.min.y}, maxY={waterBounds.max.y}");
     }
+
+    // 3) Configurar surfaceY si Hook Mode
+    if (captureMode == CaptureMode.Hook)
+    {
+        if (surfaceMarker != null)
+            surfaceY = surfaceMarker.position.y;
+        else
+            surfaceY = Camera.main.transform.position.y;
+    }
+
+    // 4) Elegir primer objetivo y arrancar el spawn loop
+    PickNewTarget();
+    StartCoroutine(SpawnLoop());
+}
+
 
     IEnumerator SpawnLoop()
     {

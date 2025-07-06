@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PescaTouch.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/PescaRed.unity
+    guid: 2c3236027cab167439f4dded8100195e
+  - enabled: 1
+    path: Assets/Scenes/inicio.unity
+    guid: 80f6022f9723e564a8a7106ae00e82cf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
