@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 40f3bd33897138241a60c08c4f94c730
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3841042153426434881
+    second: colaboracion xd_0
+  - first:
+      213: 7935983585564995772
+    second: colaboracion xd_1
+  - first:
+      213: -1545120886895531216
+    second: colaboracion xd_2
+  - first:
+      213: 185724243845805326
+    second: colaboracion xd_3
+  - first:
+      213: 2049207236122433974
+    second: colaboracion xd_4
+  - first:
+      213: 3032780276921028394
+    second: colaboracion xd_5
+  - first:
+      213: 199054130172602777
+    second: colaboracion xd_6
+  - first:
+      213: -4169495825776771441
+    second: colaboracion xd_7
+  - first:
+      213: 2294559604660574224
+    second: colaboracion xd_8
+  - first:
+      213: -1761711939633052642
+    second: colaboracion xd_9
+  - first:
+      213: 6206034775759113875
+    second: colaboracion xd_10
+  - first:
+      213: 414603756672828374
+    second: colaboracion xd_11
+  - first:
+      213: 3432831593786921556
+    second: colaboracion xd_12
+  - first:
+      213: 3227454039119934194
+    second: colaboracion xd_13
+  - first:
+      213: -3540771294770260587
+    second: colaboracion xd_14
+  - first:
+      213: 8808691841877835351
+    second: colaboracion xd_15
+  - first:
+      213: 4144819592446891087
+    second: colaboracion xd_16
+  - first:
+      213: -5713071584357791414
+    second: colaboracion xd_17
+  - first:
+      213: 6359465979801036215
+    second: colaboracion xd_18
+  - first:
+      213: -6600540010457014777
+    second: colaboracion xd_19
+  - first:
+      213: 4947319021280654363
+    second: colaboracion xd_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: colaboracion xd_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 63
+        width: 461
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb447bd1380e1bac0800000000000000
+      internalID: -3841042153426434881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 206
+        width: 98
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0bee04607422e60800000000000000
+      internalID: 7935983585564995772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_2
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 206
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b2e816db0ae8ae0800000000000000
+      internalID: -1545120886895531216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 361
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e057b9c3733d39200800000000000000
+      internalID: 185724243845805326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_4
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 258
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9dc34cf1f307c10800000000000000
+      internalID: 2049207236122433974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_5
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 258
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f40bfe799961a20800000000000000
+      internalID: 3032780276921028394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_6
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 185
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99923004dae23c200800000000000000
+      internalID: 199054130172602777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 186
+        width: 107
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ef91c23a9f226c0800000000000000
+      internalID: -4169495825776771441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_8
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 201
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01811c7adc9e7df10800000000000000
+      internalID: 2294559604660574224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_9
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 186
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e148b9923542d87e0800000000000000
+      internalID: -1761711939633052642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 137
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ec7d06fb3402650800000000000000
+      internalID: 6206034775759113875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 75
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3c6078be7f0c500800000000000000
+      internalID: 414603756672828374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 137
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4525869852ed3af20800000000000000
+      internalID: 3432831593786921556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_13
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 137
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2b4aa49583acc20800000000000000
+      internalID: 3227454039119934194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_14
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 137
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59591586447acdec0800000000000000
+      internalID: -3540771294770260587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_15
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 138
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e720b4f82ce3a70800000000000000
+      internalID: 8808691841877835351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_16
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 137
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4450e9857b558930800000000000000
+      internalID: 4144819592446891087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_17
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 74
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c9f5c9a717b0b0800000000000000
+      internalID: -5713071584357791414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 74
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5e83f5d9c514850800000000000000
+      internalID: 6359465979801036215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_19
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 74
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ed4f6e4db2664a0800000000000000
+      internalID: -6600540010457014777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colaboracion xd_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 74
+        width: 121
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1477f5107868a440800000000000000
+      internalID: 4947319021280654363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      colaboracion xd_0: -3841042153426434881
+      colaboracion xd_1: 7935983585564995772
+      colaboracion xd_10: 6206034775759113875
+      colaboracion xd_11: 414603756672828374
+      colaboracion xd_12: 3432831593786921556
+      colaboracion xd_13: 3227454039119934194
+      colaboracion xd_14: -3540771294770260587
+      colaboracion xd_15: 8808691841877835351
+      colaboracion xd_16: 4144819592446891087
+      colaboracion xd_17: -5713071584357791414
+      colaboracion xd_18: 6359465979801036215
+      colaboracion xd_19: -6600540010457014777
+      colaboracion xd_2: -1545120886895531216
+      colaboracion xd_20: 4947319021280654363
+      colaboracion xd_3: 185724243845805326
+      colaboracion xd_4: 2049207236122433974
+      colaboracion xd_5: 3032780276921028394
+      colaboracion xd_6: 199054130172602777
+      colaboracion xd_7: -4169495825776771441
+      colaboracion xd_8: 2294559604660574224
+      colaboracion xd_9: -1761711939633052642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

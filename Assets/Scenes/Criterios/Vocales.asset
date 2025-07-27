@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617ece8b4f80c5b4d9121115497e90ba, type: 3}
+  m_Name: Vocales
+  m_EditorClassIdentifier: 
+  criterion: 1
+  criterionName: Vocales
+  coloredPrefabs:
+  - {fileID: 5033168645369434045, guid: 22f5b917b4370e34487c61120a178dfb, type: 3}
+  whitePrefabs:
+  - {fileID: 5033168645369434045, guid: 22f5b917b4370e34487c61120a178dfb, type: 3}
+  letterMode: 2
+  customLetters: 4100450049004f005500
+  numberMode: 0
+  numberMin: 0
+  numberMax: 0
+  previewColorVideo: {fileID: 32900000, guid: ccd01a6265e2dfd47a667a3718978427, type: 3}
+  previewMonoVideo: {fileID: 32900000, guid: 1306c006a1acf8b4486ed5edf1c6cb41, type: 3}
