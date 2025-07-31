@@ -202,9 +202,11 @@ void PrecalculateSlotYs()
 
     // 2) Instanciamos
     var go = Instantiate(prefab, new Vector3(x, y, 0f), Quaternion.identity);
+    //Destruir pez para optimizar rendimiento
+    Destroy(go, 15f);
 
     // 3) Giramos sprite si viene de la derecha
-    var sr = go.GetComponentInChildren<SpriteRenderer>();
+        var sr = go.GetComponentInChildren<SpriteRenderer>();
     if (sr != null) sr.flipX = !fromLeft;
 
     // 4) Asignamos valores:
@@ -249,10 +251,12 @@ void PrecalculateSlotYs()
     // 6) Eventos
     var fishComp = go.GetComponent<Fish>();
     if (fishComp != null)
-    {
-        fishComp.OnClicked       += HandleCapture;
-        fishComp.OnExitedScreen += OnFishExited;
-    }
+{
+    fishComp.OnExitedScreen += OnFishExited;
+
+    if (captureMode == CaptureMode.Click)
+        fishComp.OnClicked += HandleCapture;
+}
 }
 
     void ApplyTarget(GameObject go)
@@ -360,9 +364,12 @@ void PrecalculateSlotYs()
                 targetText      = targetLetter.ToString();
                 targetTextColor = GameSettings.UseAllColors
                                   ? GetRandomPaletteColor()
-                                  : Color.green;
+                                  : Color.white;
                 UIController.Instance.ShowTextTarget(targetText);
-                UIController.Instance.targetLabel.color = targetTextColor;
+                UIController.Instance.ShowTextTarget(
+    targetText,
+    targetTextColor
+);
                 break;
 
             case "Vocales":
@@ -372,9 +379,12 @@ void PrecalculateSlotYs()
                 targetText      = targetLetter.ToString();
                 targetTextColor = GameSettings.UseAllColors
                                   ? GetRandomPaletteColor()
-                                  : Color.green;
+                                  : Color.white;
                 UIController.Instance.ShowTextTarget(targetText);
-                UIController.Instance.targetLabel.color = targetTextColor;
+                UIController.Instance.ShowTextTarget(
+    targetText,
+    targetTextColor
+);
                 break;
 
             case "Numeros 1-10":
@@ -390,9 +400,12 @@ void PrecalculateSlotYs()
                 targetText      = targetNumber.ToString();
                 targetTextColor = GameSettings.UseAllColors
                                   ? GetRandomPaletteColor()
-                                  : Color.green;
+                                  : Color.white;
                 UIController.Instance.ShowTextTarget(targetText);
-                UIController.Instance.targetLabel.color = targetTextColor;
+               UIController.Instance.ShowTextTarget(
+    targetText,
+    targetTextColor
+);
                 break;
 
             default:
@@ -400,13 +413,13 @@ void PrecalculateSlotYs()
                 var fdata  = sample.GetComponent<Fish>();
                 targetSpecies = fdata.species;
                 targetColor   = fdata.colorName;
-                UIController.Instance.ShowSpriteTarget(
-                    sample.GetComponent<SpriteRenderer>().sprite,
-                    GameSettings.UseAllColors
-                        ? $"{targetColor} {targetSpecies}"
-                        : null,
-                    false
-                );
+                var sr = sample.GetComponentInChildren<SpriteRenderer>();
+Sprite sprite = sr != null ? sr.sprite : null;
+UIController.Instance.ShowSpriteTarget(
+    sprite,
+    GameSettings.UseAllColors ? $"{targetColor} {targetSpecies}" : null
+);
+
                 break;
         }
     }
@@ -437,7 +450,7 @@ void PrecalculateSlotYs()
 
     private static readonly Color[] _palette = {
         Color.white, Color.red, Color.blue, Color.yellow,
-        new Color(1f,0.4f,0.7f), Color.green,
+        new Color(1f,0.4f,0.7f), Color.green, Color.white,
         new Color(0.6f,0.2f,0.8f), new Color(0.65f,0.5f,0.4f),
         new Color(0.5f,0.5f,0.5f)
     };

@@ -24,4 +24,4 @@ MonoBehaviour:
   numberMin: 0
   numberMax: 0
   previewColorVideo: {fileID: 32900000, guid: 12a618dacb4d9fc4ab489abdfd36d844, type: 3}
-  previewMonoVideo: {fileID: 32900000, guid: 6a30f16da99b88c4f96519e9ef52e646, type: 3}
+  previewMonoVideo: {fileID: 32900000, guid: cb65201610bd3204ebcc60e56d624d1a, type: 3}
