@@ -25,12 +25,12 @@ public class MenuController : MonoBehaviour
 
     // —— NUEVO: Elementos UI de Opciones ——
     [Header("Opciones > Dificultad")]
-    public Slider   difficultySlider;      // Rango 0.10 → 0.70
+    public Slider difficultySlider;      // Rango 0.10 → 0.70
     public TMP_Text difficultyLabel;       // "Fácil (0.65)"
-    public Image    difficultyIcon;        // Cambia sprite según franja
-    public Sprite   easySprite;
-    public Sprite   normalSprite;
-    public Sprite   hardSprite;
+    public Image difficultyIcon;        // Cambia sprite según franja
+    public Sprite easySprite;
+    public Sprite normalSprite;
+    public Sprite hardSprite;
 
     void Start()
     {
@@ -85,11 +85,11 @@ public class MenuController : MonoBehaviour
     // 4) Salir
     void OnExit()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
         Application.Quit();
-        #endif
+#endif
     }
 
     // Cerrar paneles
@@ -105,31 +105,31 @@ public class MenuController : MonoBehaviour
 
     // —— Lógica de Dificultad ——
     void OnDifficultyChanged(float t)
-{
-    // Mapear t→probabilidad
-    float prob = Mathf.Lerp(0.70f, 0.10f, t);
-    GameSettings.FishSpawnProbability = prob;
+    {
+        // Mapear t→probabilidad
+        float prob = Mathf.Lerp(0.70f, 0.10f, t);
+        GameSettings.FishSpawnProbability = prob;
 
-    // Etiqueta y sprite
-    string label;
-    Sprite icon;
-    if (prob >= 0.55f)
-    {
-        label = "Fácil";
-        icon  = easySprite;
-    }
-    else if (prob >= 0.30f)
-    {
-        label = "Normal";
-        icon  = normalSprite;
-    }
-    else
-    {
-        label = "Difícil";
-        icon  = hardSprite;
-    }
+        // Etiqueta y sprite
+        string label;
+        Sprite icon;
+        if (prob >= 0.55f)
+        {
+            label = "Fácil";
+            icon = easySprite;
+        }
+        else if (prob >= 0.30f)
+        {
+            label = "Normal";
+            icon = normalSprite;
+        }
+        else
+        {
+            label = "Difícil";
+            icon = hardSprite;
+        }
 
-    difficultyLabel.text  = $"{label} ({prob * 100f:F0}%)";
-    difficultyIcon.sprite = icon;
-}
+        difficultyLabel.text = $"{label} ({prob * 100f:F0}%)";
+        difficultyIcon.sprite = icon;
+    }
 }

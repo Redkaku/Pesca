@@ -229,12 +229,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetImage: {fileID: 1104018718}
-  defaultLabel: {fileID: 1830423166}
-  lnLabel: {fileID: 464332958}
+  spriteLabel: {fileID: 1830423166}
+  textOnlyLabel: {fileID: 464332958}
   progressSlider: {fileID: 1694906428}
   progressText: {fileID: 247648494}
-  labelText: {fileID: 0}
-  nameText: {fileID: 0}
 --- !u!114 &19867638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   applauseClip: {fileID: 8300000, guid: dec35f55c9f39e54bb5e444b0cd14208, type: 3}
-  audioSource: {fileID: 724462096}
+  verticalMarginPercent: 0.22
   act: {fileID: 724462093}
   slowFactor: 0.2
   victoryDelay: 7
@@ -1048,6 +1046,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1876371953701903586, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 19867640}
+    - target: {fileID: 1876371953701903586, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
     - target: {fileID: 5103162385903338106, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
       propertyPath: m_Name
       value: Pausa
@@ -1060,6 +1066,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7180961649632930178, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 19867640}
+    - target: {fileID: 7180961649632930178, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitToMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 8431985085249748604, guid: 6bbc5fa6b3dfb144792ced644bbc4a63, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6304,7 +6318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1104018717
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7553,6 +7567,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 203497747}
+  - {fileID: 1949818813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8654,9 +8669,9 @@ RectTransform:
   - {fileID: 247648493}
   m_Father: {fileID: 203497747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6324063, y: 0.90000004}
-  m_AnchorMax: {x: 0.94778126, y: 0.9638362}
-  m_AnchoredPosition: {x: 0, y: -39}
+  m_AnchorMin: {x: 0.63000005, y: 0.8445514}
+  m_AnchorMax: {x: 0.95012504, y: 0.9152247}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1694906428
@@ -9851,21 +9866,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &1949818813
-Transform:
+--- !u!224 &1949818813
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949818811}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.56, z: 0}
-  m_LocalScale: {x: 18, y: 5.6, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1036.7999, y: 322.56, z: 57.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1374733127}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.0498125, y: 0.06047223}
+  m_AnchorMax: {x: 0.948125, y: 0.632}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1958093295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10541,6 +10560,5 @@ SceneRoots:
   - {fileID: 216667978}
   - {fileID: 928226230}
   - {fileID: 1813060425}
-  - {fileID: 1949818813}
   - {fileID: 724462095}
   - {fileID: 124602399}

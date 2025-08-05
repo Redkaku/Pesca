@@ -40,8 +40,7 @@ public class SimpleCriterionData : ScriptableObject
     public string criterionName;
 
 
-    [Header("Prefabs (con color)")]
-    public GameObject[]        coloredPrefabs;
+
 
     [Header("Prefabs (monocromo)")]
     public GameObject[]        whitePrefabs;

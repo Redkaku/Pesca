@@ -6,19 +6,16 @@ public class UIController : MonoBehaviour
 {
     public static UIController Instance { get; private set; }
 
-    [Header("Objetivo con Sprite/Color")]
-    public Image                  targetImage;    // recuadro o icono
-    public TextMeshProUGUI        defaultLabel;   // sólo para nombre de color o texto pequeño
+    [Header("Objetivo Sprite")]
+    public Image               targetImage;    // recuadro o icono
+    public TextMeshProUGUI     spriteLabel;    // texto junto al icono
 
-    [Header("Objetivo Letter/Number/Text")]
-    public TextMeshProUGUI        lnLabel;        // sólo para letras/números
+    [Header("Objetivo Texto")]
+    public TextMeshProUGUI     textOnlyLabel;  // para letras, números o vocales
 
     [Header("Progreso")]
-    public Slider                 progressSlider;
-    public TextMeshProUGUI        progressText;
-    public TextMeshProUGUI labelText; // para letras/números
-public TextMeshProUGUI nameText;  // para nombres o colores
-
+    public Slider              progressSlider;
+    public TextMeshProUGUI     progressText;
 
     void Awake()
     {
@@ -27,40 +24,39 @@ public TextMeshProUGUI nameText;  // para nombres o colores
 
         progressSlider.interactable = false;
         if (progressSlider.handleRect != null)
-        {
-            var h = progressSlider.handleRect.GetComponent<Image>();
-            if (h != null) h.raycastTarget = false;
-        }
+            progressSlider.handleRect.GetComponent<Image>().raycastTarget = false;
     }
 
-    /// <summary> Muestra icono o cuadro coloreado y texto pequeño (nombre de color). </summary>
-    public void ShowSpriteTarget(Sprite sprite, string label = null, Color? tint = null)
+    public void ShowTextTarget(string text, Color color)
     {
-        // sprite / color
-        targetImage.gameObject.SetActive(true);
-        targetImage.sprite = sprite;
-        targetImage.color  = tint ?? Color.white;
-
-        // defaultLabel
-        defaultLabel.gameObject.SetActive(!string.IsNullOrEmpty(label));
-        defaultLabel.text = label ?? "";
-        // lnLabel oculto
-        lnLabel.gameObject.SetActive(false);
-    }
-
-    /// <summary> Muestra sólo texto grande (letra, número o cualquier texto). </summary>
-    public void ShowTextTarget(string text, Color? color = null)
-    {
-        // oculta imagen y defaultLabel
         targetImage.gameObject.SetActive(false);
-        defaultLabel.gameObject.SetActive(false);
+        spriteLabel.gameObject.SetActive(false);
 
-        // muestra lnLabel
-        lnLabel.gameObject.SetActive(!string.IsNullOrEmpty(text));
-        lnLabel.text  = text ?? "";
-        if (color.HasValue) lnLabel.color = color.Value;
+        textOnlyLabel.gameObject.SetActive(true);
+        textOnlyLabel.text  = text;
+        textOnlyLabel.color = color;
     }
-    
+
+    public void ShowSpriteTarget(Sprite sprite, string label = null, Color? tint = null)
+{
+    textOnlyLabel.gameObject.SetActive(false);
+
+    targetImage.gameObject.SetActive(sprite != null);
+    targetImage.sprite = sprite;
+    targetImage.color  = tint ?? Color.white;
+
+    if (!string.IsNullOrEmpty(label))
+    {
+        spriteLabel.gameObject.SetActive(true);
+        spriteLabel.text  = label;
+        spriteLabel.color = Color.white;   // siempre blanco
+    }
+    else
+    {
+        spriteLabel.gameObject.SetActive(false);
+    }
+}
+
 
     public void UpdateProgress(int current, int target)
     {

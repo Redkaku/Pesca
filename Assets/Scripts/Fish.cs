@@ -26,18 +26,7 @@ public enum Species
     Rombo
 }
 
-public enum FishColor
-{
-    Rojo,
-    Morado,
-    Blanco,
-    Verde,
-    Azul,
-    Amarillo,
-    Rosa,
-    Cafe,
-    Gris
-}
+
 
 
 [RequireComponent(typeof(Collider2D))]

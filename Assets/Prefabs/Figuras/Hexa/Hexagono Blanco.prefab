@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   species: 16
-  colorName: 2
+  colorName: 0
   letter: 0
   bodyRenderer: {fileID: 4673063424235906511}
   shapeRenderer: {fileID: 5848499884300640489}
