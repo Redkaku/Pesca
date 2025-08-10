@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110969395035088543}
   - component: {fileID: 6551436806241343321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 4250103415595042018}
   - component: {fileID: 291198290052633025}
   - component: {fileID: 3199589691436480549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 6032108990571023258}
   - component: {fileID: 3147457904841757286}
   - component: {fileID: 4222385462802386983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

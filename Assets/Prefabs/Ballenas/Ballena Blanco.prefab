@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2019265102284228184}
   - component: {fileID: 2295686974980516964}
   - component: {fileID: 3563482539147695181}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ballena Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 7
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 2044507990153962566}
   - component: {fileID: 6509042757476515547}
   - component: {fileID: 3161989179966227529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5487357623045484954}
   - component: {fileID: 2217362840218738645}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1739832410603610594}
   - component: {fileID: 8883940224373741417}
   - component: {fileID: 3354938757296223556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Rosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 2485927811333276378}
   - component: {fileID: 3665863149093106911}
   - component: {fileID: 5805458528766981919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7656920339458059938}
   - component: {fileID: 7571421876054979283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

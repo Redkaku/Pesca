@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2653423368108470760}
   - component: {fileID: 4757742859959043472}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 8589861800903192522}
   - component: {fileID: 4534077629987588891}
   - component: {fileID: 8881448793257124295}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LetrasNum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 1
   colorName: 0
   letter: 0
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 3693370733333978098}
   - component: {fileID: 7164607904534805295}
   - component: {fileID: 5247144089714226908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

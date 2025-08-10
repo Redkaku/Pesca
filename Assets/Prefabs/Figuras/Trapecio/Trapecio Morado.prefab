@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8302786265956814565}
   - component: {fileID: 4334809775811899775}
   - component: {fileID: 56703979916323618}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Morado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 2119221579967829055}
   - component: {fileID: 6058813821715311994}
   - component: {fileID: 4162842660772346547}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7809969133739047257}
   - component: {fileID: 367814946976225153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

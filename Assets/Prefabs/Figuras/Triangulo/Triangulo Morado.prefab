@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8812031564111011242}
   - component: {fileID: 2306428343906851758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 3015071350483045542}
   - component: {fileID: 2336288278799501377}
   - component: {fileID: 2519910252022720256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Morado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 6027603008479187057}
   - component: {fileID: 5930182772917792601}
   - component: {fileID: 7055126433544598920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

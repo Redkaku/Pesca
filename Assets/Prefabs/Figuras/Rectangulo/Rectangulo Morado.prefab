@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8454932678224767622}
   - component: {fileID: 7823983146964786768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 8441533349397385521}
   - component: {fileID: 5327666551554083965}
   - component: {fileID: 1744000007317445802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 1048502187961163353}
   - component: {fileID: 1140508310658279064}
   - component: {fileID: 8536625653700407437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rectangulo Morado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 12
   colorName: 0
   letter: 0

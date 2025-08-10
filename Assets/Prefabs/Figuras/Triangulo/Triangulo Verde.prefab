@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6899669854932429016}
   - component: {fileID: 4235536906998316546}
   - component: {fileID: 2144481003897253972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4483001461326305617}
   - component: {fileID: 2575604894755206010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 6820965548755986251}
   - component: {fileID: 2407822632665673322}
   - component: {fileID: 5124820812738957239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

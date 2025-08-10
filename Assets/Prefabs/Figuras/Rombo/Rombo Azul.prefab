@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2471475342274094236}
   - component: {fileID: 6202363879160759072}
   - component: {fileID: 7536534393674131731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 8639469457376215092}
   - component: {fileID: 4151797187769326675}
   - component: {fileID: 6284573650887073282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Azul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3938660873064460459}
   - component: {fileID: 2921229784454103749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

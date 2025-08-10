@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1275567197406072104}
   - component: {fileID: 7044222312930482134}
   - component: {fileID: 2695699112688560967}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7654000971972606192}
   - component: {fileID: 3414677529332673438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 5795959747529236482}
   - component: {fileID: 7814569744724466982}
   - component: {fileID: 2378011379885007250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rectangulo Azul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 12
   colorName: 0
   letter: 0

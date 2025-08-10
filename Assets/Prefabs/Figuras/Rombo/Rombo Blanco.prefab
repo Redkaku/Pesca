@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2881172069058876245}
   - component: {fileID: 6316533519862498478}
   - component: {fileID: 8040766879361777347}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6670847816202685941}
   - component: {fileID: 3997368330293256313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 6209218484028529493}
   - component: {fileID: 1270643900716892174}
   - component: {fileID: 5225558796517148092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 821356633631468789}
   - component: {fileID: 7978491905257097084}
   - component: {fileID: 805274599124638063}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 1616658610964990693}
   - component: {fileID: 5013535419006821043}
   - component: {fileID: 8938495251180696916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Rojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2412705206303566196}
   - component: {fileID: 6344656298636479997}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

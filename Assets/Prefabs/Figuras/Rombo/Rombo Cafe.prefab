@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1234981055370252545}
   - component: {fileID: 70448208504516244}
   - component: {fileID: 3968312464164208275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Cafe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5105824125922151955}
   - component: {fileID: 4806571521194739861}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 5040704756209471631}
   - component: {fileID: 3149381489670879127}
   - component: {fileID: 4496690972819862390}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

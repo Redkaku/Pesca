@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9050491060688226432}
   - component: {fileID: 8033169125022515938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 2471149933246382652}
   - component: {fileID: 3060303329934943979}
   - component: {fileID: 7875319075771207438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 4774672323305488675}
   - component: {fileID: 4597501046886336497}
   - component: {fileID: 2947035174139866758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Rosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0

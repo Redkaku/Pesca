@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4491523697858343490}
   - component: {fileID: 5848499884300640489}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 2530036414632796756}
   - component: {fileID: 7621575106056128283}
   - component: {fileID: 6469055065945949472}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 5680794855727982806}
   - component: {fileID: 1169766177208261888}
   - component: {fileID: 652001216711641225}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hexagono Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 16
   colorName: 0
   letter: 0

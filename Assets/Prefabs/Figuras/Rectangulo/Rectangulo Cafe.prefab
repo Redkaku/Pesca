@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7982056781927845366}
   - component: {fileID: 4053807349922292513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 3305820450468211161}
   - component: {fileID: 6785039410308378038}
   - component: {fileID: 3940022460392541536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 171872850626813394}
   - component: {fileID: 1116605121719465011}
   - component: {fileID: 2659364599818925248}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rectangulo Cafe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 12
   colorName: 0
   letter: 0

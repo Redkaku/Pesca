@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7666341001337490467}
   - component: {fileID: 6604092928950736020}
   - component: {fileID: 3273977090275576715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 5621946627319688078}
   - component: {fileID: 7913354322407717629}
   - component: {fileID: 4602348111775009623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pentagono Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 17
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373846427184075661}
   - component: {fileID: 2159670229853201153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

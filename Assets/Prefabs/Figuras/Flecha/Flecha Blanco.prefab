@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8398742562042280298}
   - component: {fileID: 1449392005895055878}
   - component: {fileID: 2683262591958630520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flecha Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 14
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3244063748060734738}
   - component: {fileID: 6830092586591597411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 4212404444111504000}
   - component: {fileID: 283920765905930088}
   - component: {fileID: 4464927797273171472}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

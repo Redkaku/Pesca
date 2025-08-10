@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5239073498518767499}
   - component: {fileID: 6832877893592706692}
   - component: {fileID: 1621846075454462637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 2597523846622457300}
   - component: {fileID: 4357328156654599575}
   - component: {fileID: 1544524623689328770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Rosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2614158272254143403}
   - component: {fileID: 6434665201568743380}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

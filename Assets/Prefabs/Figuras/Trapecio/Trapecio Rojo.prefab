@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1527167886918885819}
   - component: {fileID: 8469393807562782679}
   - component: {fileID: 845810174776259050}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Rojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5047528148708587857}
   - component: {fileID: 8708549997775459753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 1079042517416330456}
   - component: {fileID: 7302815267163886314}
   - component: {fileID: 6997058858072047882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

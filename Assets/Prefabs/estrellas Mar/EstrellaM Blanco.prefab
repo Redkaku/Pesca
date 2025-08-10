@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4740397839891523769}
   - component: {fileID: 6478273654486421212}
   - component: {fileID: 3897904299995890581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EstrellaM Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 4
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 611331244958476151}
   - component: {fileID: 6602101172345423594}
   - component: {fileID: 4318527827721176440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4831095058842740995}
   - component: {fileID: 7921415086157330687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

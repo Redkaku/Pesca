@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8612862312982183065}
   - component: {fileID: 5826209975870183689}
   - component: {fileID: 8149725697735445721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7234237510488586793}
   - component: {fileID: 730527287534808169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 3870345483533685524}
   - component: {fileID: 2759111999322524373}
   - component: {fileID: 3694347031261010114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0

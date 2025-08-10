@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8326771983993567930}
   - component: {fileID: 9092345037927615420}
   - component: {fileID: 461106597748006365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Amarillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 3777554249588706432}
   - component: {fileID: 371751357005846951}
   - component: {fileID: 7722168534080733751}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8700674316479925966}
   - component: {fileID: 57804623710950803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

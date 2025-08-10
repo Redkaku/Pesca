@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2128924966405988943}
   - component: {fileID: 7744144975365402946}
   - component: {fileID: 8044965114902668804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 535997496399022907}
   - component: {fileID: 135784412540586038}
   - component: {fileID: 3280279186550548242}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rombo Amarillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 20
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5176282930852392313}
   - component: {fileID: 2161672939757988904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

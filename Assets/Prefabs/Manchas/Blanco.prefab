@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 497371374754950230}
   - component: {fileID: 5727992460383601935}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1265382572364089917}
   - component: {fileID: 5312988859338954826}
   - component: {fileID: 3870320091909090743}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 6130531009206332561}
   - component: {fileID: 5200025014121052645}
   - component: {fileID: 8691457872480784196}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 15
   colorName: 0
   letter: 0

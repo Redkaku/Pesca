@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7352514774592258909}
   - component: {fileID: 1438048770444766098}
   - component: {fileID: 8728407711726175235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circulo Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 8
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7800427680830109234}
   - component: {fileID: 3570535558101475498}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 3437193430617536282}
   - component: {fileID: 7193477980873144800}
   - component: {fileID: 5829349562054120683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

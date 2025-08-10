@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3558150929387285742}
   - component: {fileID: 2901866488024728081}
   - component: {fileID: 986448571161194875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rayo Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 19
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6979160647235328552}
   - component: {fileID: 7420895034971303006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 2825488141927309466}
   - component: {fileID: 1471903025902841894}
   - component: {fileID: 8994039021759214310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

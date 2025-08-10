@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7130529308330589456}
   - component: {fileID: 7131664220881863768}
   - component: {fileID: 1756479319800466499}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 725279458500417697}
   - component: {fileID: 2151526155719758704}
   - component: {fileID: 2563345447549651673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Amarillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3844677114650006535}
   - component: {fileID: 6785669958239895774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -35,6 +35,7 @@ public class Fish : MonoBehaviour
     // Eventos
     public event Action<Fish> OnExitedScreen;
     public event Action<Fish> OnClicked;
+    [HideInInspector] public int targetId;
 
     [Header("Identificación (dropdown)")]
     public Species   species;     // dropdown: PezGlobo, Pulpo, Mantarraya

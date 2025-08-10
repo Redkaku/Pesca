@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4712589070103518578}
   - component: {fileID: 8421169055418046273}
   - component: {fileID: 1150320162046926230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rectangulo Rojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 12
   colorName: 0
   letter: 0
@@ -216,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6780133216389403397}
   - component: {fileID: 2635587128368812722}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,7 @@ GameObject:
   - component: {fileID: 3891877419741309908}
   - component: {fileID: 2347348473614731544}
   - component: {fileID: 6787701847887267591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}

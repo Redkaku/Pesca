@@ -15,6 +15,10 @@ public class MenuController : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject creditsPanel;
     public Toggle specialEffectsToggle;
+    [Header("Opciones > Volumen")]
+    public Slider volumeSlider;
+    public TMP_Text volumeLabel;
+
 
     [Header("Botones de Cierre de Paneles")]
     public Button closeOptionsButton;
@@ -37,6 +41,15 @@ public class MenuController : MonoBehaviour
         // Paneles cerrados al inicio
         optionsPanel.SetActive(false);
         creditsPanel.SetActive(false);
+        float savedVol = PlayerPrefs.GetFloat("masterVolume", 1f);
+        AudioListener.volume = savedVol;
+
+        volumeSlider.minValue = 0f;
+        volumeSlider.maxValue = 1f;
+        volumeSlider.value = savedVol;
+        volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+
+        UpdateVolumeLabel(savedVol);
 
         // Listeners básicos
         changeSceneButton.onClick.AddListener(OnChangeScene);
@@ -62,6 +75,19 @@ public class MenuController : MonoBehaviour
         specialEffectsToggle.isOn = GameSettings.SpecialEffectsEnabled;
         specialEffectsToggle.onValueChanged.AddListener(on => GameSettings.SpecialEffectsEnabled = on);
     }
+    void OnVolumeChanged(float v)
+    {
+        AudioListener.volume = v;
+        PlayerPrefs.SetFloat("masterVolume", v);
+        UpdateVolumeLabel(v);
+    }
+
+    void UpdateVolumeLabel(float v)
+    {
+        if (volumeLabel != null)
+            volumeLabel.text = $"Volumen: {(v * 100f):F0}%";
+    }
+
 
     // 1) Cambiar de escena
     void OnChangeScene()

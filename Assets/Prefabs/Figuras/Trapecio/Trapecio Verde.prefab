@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3446253955910706411}
   - component: {fileID: 3984370530014582869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 6002112886722620562}
   - component: {fileID: 903685665367652075}
   - component: {fileID: 3265617803877131987}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 8006402589015173370}
   - component: {fileID: 4650835663688734563}
   - component: {fileID: 1645987699721523343}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0

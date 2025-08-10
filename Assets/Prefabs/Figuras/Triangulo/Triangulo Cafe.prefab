@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1018653393909491672}
   - component: {fileID: 5686383911661778886}
   - component: {fileID: 3385966861322762891}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangulo Cafe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 9
   colorName: 0
   letter: 0
@@ -217,7 +218,7 @@ GameObject:
   - component: {fileID: 3104382839993279709}
   - component: {fileID: 6977876395116263642}
   - component: {fileID: 7329950618086821862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2183539811230788547}
   - component: {fileID: 2549174325038035746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

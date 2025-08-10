@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1811645059854608097}
   - component: {fileID: 6826696498023017958}
   - component: {fileID: 1225957492314033079}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 3906132059691710771}
   - component: {fileID: 4440911989267362893}
   - component: {fileID: 4888446099889241979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trapecio Cafe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 18
   colorName: 0
   letter: 0
@@ -392,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918480566594620070}
   - component: {fileID: 7162450733336650603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

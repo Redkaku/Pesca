@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4717465052416936393}
   - component: {fileID: 3200102450117910467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Figura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4530472692585800822}
   - component: {fileID: 6442596732888305240}
   - component: {fileID: 6573959534142613208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Letra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 1305598637909790395}
   - component: {fileID: 641932354501947508}
   - component: {fileID: 2759666095736546005}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Corazon Blanco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251ea47c6b5dddd4cb25ba562979d425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetId: 0
   species: 13
   colorName: 0
   letter: 0

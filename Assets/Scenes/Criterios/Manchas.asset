@@ -16,8 +16,8 @@ MonoBehaviour:
   criterionName: Colores
   whitePrefabs:
   - {fileID: 7739570007943927425, guid: ea9231a94d9a756448827ff4537048b0, type: 3}
-  letterMode: 2
-  customLetters: 4100450049004f005500
+  letterMode: 0
+  customLetters: 
   numberMode: 0
   numberMin: 0
   numberMax: 0
