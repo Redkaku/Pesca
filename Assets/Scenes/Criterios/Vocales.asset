@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   criterion: 1
   criterionName: Vocales
-  coloredPrefabs:
-  - {fileID: 5033168645369434045, guid: 22f5b917b4370e34487c61120a178dfb, type: 3}
   whitePrefabs:
   - {fileID: 5033168645369434045, guid: 22f5b917b4370e34487c61120a178dfb, type: 3}
   letterMode: 2

@@ -365,6 +365,10 @@ else
             return fish.letter == currentTarget.letter
                 && (!GameSettings.UseAllColors 
                     || fish.letterText.color == currentTarget.tint);
+        case CriterionType.Vowel:
+            return fish.letter == currentTarget.letter
+                && (!GameSettings.UseAllColors 
+                    || fish.letterText.color == currentTarget.tint);
 
         case CriterionType.Number:
             return fish.number.HasValue
