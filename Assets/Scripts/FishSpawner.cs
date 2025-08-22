@@ -140,6 +140,17 @@ public class FishSpawner : MonoBehaviour
             yield return new WaitForSeconds(spawnInterval);
         }
     }
+    // Compara colores con una pequeña tolerancia para evitar fallos por floats
+bool ColorsEqual(Color a, Color b, float eps = 0.02f)
+{
+    return Mathf.Abs(a.r - b.r) <= eps
+        && Mathf.Abs(a.g - b.g) <= eps
+        && Mathf.Abs(a.b - b.b) <= eps
+        && Mathf.Abs(a.a - b.a) <= eps;
+}
+
+
+
 
     void PrecalculateSlotYs()
     {
@@ -238,6 +249,7 @@ public class FishSpawner : MonoBehaviour
 
     void SpawnOneAlternate()
     {
+        
         bool spawnTarget = Random.value < targetWeight;
 
         // 1) lado + slot Y
@@ -246,6 +258,7 @@ public class FishSpawner : MonoBehaviour
         float x = fromLeft ? b.min.x : b.max.x;
         float y = slotYs[Random.Range(0,slotYs.Length)];
         Vector3 pos = new Vector3(x,y,0f);
+        
 
         // 2) elige prefab
         GameObject prefab;
@@ -279,6 +292,8 @@ public class FishSpawner : MonoBehaviour
 
         // 6) asigna targetId y datos
         var fish = go.GetComponent<Fish>();
+        fish.letter = '\0';
+fish.number = null;
         fish.targetId = currentTarget.id;
 
         switch(currentTarget.type){
@@ -290,10 +305,22 @@ public class FishSpawner : MonoBehaviour
             break;
 
           case CriterionType.Vowel:
-            fish.letter = spawnTarget
-                         ? currentTarget.letter
-                         : activePreset.customLetters[
-                             Random.Range(0,activePreset.customLetters.Length)];
+            if (spawnTarget)
+            fish.letter = currentTarget.letter;
+        else
+        {
+            if (currentTarget.type == CriterionType.Vowel)
+            {
+                var arr = activePreset.customLetters;
+                fish.letter = arr[Random.Range(0, arr.Length)];
+            }
+            else
+            {
+                fish.letter = (char)('A' + Random.Range(0, 26));
+            }
+        }
+        // texto y color del texto
+        if (fish.letterText != null)
             fish.letterText.color = tint;
             break;
 
@@ -357,32 +384,41 @@ else
         Destroy(fish.gameObject);
     }
 
-    public bool EvaluateCatch(Fish fish)
+public bool EvaluateCatch(Fish fish)
 {
+    if (fish == null) return false;
+
     switch (currentTarget.type)
     {
         case CriterionType.Letter:
-            return fish.letter == currentTarget.letter
-                && (!GameSettings.UseAllColors 
-                    || fish.letterText.color == currentTarget.tint);
         case CriterionType.Vowel:
-            return fish.letter == currentTarget.letter
-                && (!GameSettings.UseAllColors 
-                    || fish.letterText.color == currentTarget.tint);
+            // letra debe coincidir
+            if (fish.letter != currentTarget.letter) return false;
+            // si usamos colores, comparamos tolerante sobre el color del texto
+            if (GameSettings.UseAllColors)
+            {
+                if (fish.letterText == null) return false;
+                if (!ColorsEqual(fish.letterText.color, currentTarget.tint)) return false;
+            }
+            return true;
 
         case CriterionType.Number:
-            return fish.number.HasValue
-                && fish.number.Value == currentTarget.number
-                && (!GameSettings.UseAllColors 
-                    || fish.numberText.color == currentTarget.tint);
+            if (!fish.number.HasValue) return false;
+            if (fish.number.Value != currentTarget.number) return false;
+            if (GameSettings.UseAllColors)
+            {
+                if (fish.numberText == null) return false;
+                if (!ColorsEqual(fish.numberText.color, currentTarget.tint)) return false;
+            }
+            return true;
 
         case CriterionType.Species:
-            return fish.species == currentTarget.species
-                && (!GameSettings.UseAllColors 
-                    || fish.colorName == currentTarget.colorEnum);
-
         default:
-            return false;
+            // Para especies validamos enum (y enum color si aplica)
+            bool ok = fish.species == currentTarget.species;
+            if (GameSettings.UseAllColors)
+                ok &= fish.colorName == currentTarget.colorEnum; // comparar enums es seguro
+            return ok;
     }
 }
 
