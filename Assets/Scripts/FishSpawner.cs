@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public enum FishColor
 {
     Blanco, Rojo, Azul, Amarillo, Rosa,
-    Verde, Cyan, Morado, Cafe, Gris
+    Verde, Naranja, Morado, Cafe, Gris
 }
 
 // --- 2) Clase para describir cualquier objetivo ---
@@ -77,7 +77,7 @@ public class FishSpawner : MonoBehaviour
         new NamedColor(Color.yellow,FishColor.Amarillo),
         new NamedColor(new Color(1f,0.4f,0.7f),FishColor.Rosa),
         new NamedColor(Color.green, FishColor.Verde),
-        new NamedColor(Color.cyan,  FishColor.Cyan),
+        new NamedColor(new  Color32(255, 128, 0, 255),  FishColor.Naranja),
         new NamedColor(new Color(0.6f,0.2f,0.8f),FishColor.Morado),
         new NamedColor(new Color(0.65f,0.5f,0.4f),FishColor.Cafe),
         new NamedColor(new Color(0.5f,0.5f,0.5f),FishColor.Gris),
